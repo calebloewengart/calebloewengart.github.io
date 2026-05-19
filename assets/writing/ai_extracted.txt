@@ -1,0 +1,133 @@
+Applications of AI in Negotiation
+1 Introduction
+With the onset of the AI revolution, it’s possible that mediators could have access to vastly
+more data about the parties they’re working with, leading to more informed dialogues and
+greater positive outcomes. Negotiators can use machine learning (ML) to make better pre-
+dictions about parties’ interests when negotiating. However, the limitations of these models
+bring into question how much of a benefit they truly offer.
+2 Informing Strategy
+There are numerous applications of AI at the strategy ideation stage of negotiation, which
+may provide mediators with better information or predictions of possible outcomes. With
+expedited data processing, these tools can identify key anomalies which may lead to conflict
+(Choyal et al., 2024). By considering data from social media and news, as well as potential
+economic indicators, early signs of violence are less likely to go unnoticed. This may allow
+negotiators to practice a sort of preemption. If they believe it necessary in a certain case,
+they may bring parties to a table before a conflict breaks out in order to prevent its start in
+the first place.
+Historical strategies can be useful in informing present ones due to the benefit of hind-
+sight. Being able to comprehend what did or didn’t work prior allows those involved to
+revisit former areas of agreement or target areas that are still weak (Choyal et al., 2024).
+1This necessity can be seen in the work of Arana-Catania et al., who have been collaborating
+with the Yemeni mediation team to build ML models informed by prior discussions between
+the parties involved. They predetermined categories and query words which their model
+could then use to target dialogue about those specific ideas which, combined with a latent
+issue extraction tool, provided mediators with a full understanding of how these parties have
+developed. This highlights to them the most contentious issues, helping them focus their
+time. It also helped determine the latent issues which could lead to more consensuses.
+3 During Negotiation
+Most of the benefits of ML to the active negotiation process stem from the natural language
+processing (NLP) capabilities of these models. In negotiation, the mediator works to un-
+derstand to the best of their ability what the parties are thinking. They use a combination
+of verbal and non-verbal (proxemic) cues to make educated guesses about how they may
+be reacting to the issue at hand. By employing NLP, the context of the negotiation can
+be interpreted by the model, providing it a strong basis to glean reactive cues. Combining
+this method with sentiment analysis helps identify points of contention as well as points of
+agreement in order to fully understand the subtext of what’s being said.
+Negotiations often occur between parties that have difficulty communicating to one an-
+other. In our globalized system, language barriers are often faced, especially when conduct-
+ing multi-party negotiations or in countries with diverse ethnic and linguistic compositions.
+Some of the issues of inter-party negotiation can be mitigated through the live translation
+capabilities of NLP (Choyal et al., 2024). Models may have the ability to actively translate
+both spoken and written word in real time, more quickly than a translator. Thus, it is
+ensured that all parties can fully participate in the negotiation process. For languages that
+have deep regional ties, but aren’t widely spoken, there may be difficulty locating a trans-
+lator who can help with negotiation. In such cases, reliance on a machine learning model
+2could be beneficial to speeding up the process.
+4 Public Opinion
+An important element of the negotiation process is public opinion surrounding the negoti-
+ations. In conflicts where there is higher support for negotiation, the government may feel
+more pressure to resolve the conflict as such, rather than seeking a military resolution. In a
+study conducted by Montoya et al., civilians in conflict zones were asked if they supported
+negotiation as a means to end conflict, alongside a series of potential social, political, and
+economic predictors. They determined that one’s level of support for vigilante justice and
+extra-judicial policing were good predictors of negotiation preferences, as well as the level of
+trust in state institutions and proximity to conflict (Montoya & Tellez, 2020). Interestingly,
+one’s level of victimization had little predictive power as to their support for negotiations
+(Montoya & Tellez, 2020). Therefore, cultural indicators may provide the best predictor of
+public support for negotiation.
+5 Limitations and Ethical Concerns
+Despite the significant asset that machine learning may prove to offer the field of negotiation,
+it is still limited in the scope of benefits it can provide. Furthermore, there are ethical
+considerations that must be taken into account, as with any emerging technology.
+5.1 Limitations
+While NLP models have significantly improved their logic and reasoning skills, there is still
+significant room for improvement. Often, NLP models struggle to pass systemic reasoning
+tests and make ”inconsistent inferences” about the world around them (Molak, 2025). A
+potential solution to this would be Chain-of-Thought (CoT) prompting, wherein the user
+3provides an example of how to solve a problem step-by-step or simply prompts the model
+to do so. It’s been found that adding a variation of ”think about this step-by-step” leads to
+the generation of more systematic outputs.
+AI models may also experience ”hallucinations,” wherein they present false information
+as true. This is of great concern to negotiators, who rely on having accurate information
+when dealing with parties in contentious situations. The frequency of hallucinations can be
+reduced through retrieval augmented generation (RAG), which only pulls information from
+provided documents, rather than internal training knowledge. An example of this would
+be the models used by Arana-Catania et al., which only used data from the negotiations
+provided. Yet, the more information that the model has, the better the analysis will be.
+Limited volume has the potential to skew results and misguide the interpretation of that data
+(Arana-Catania et al., 2022). Thus for RAG to be an effective solution to hallucinations, it
+requires significant data to supplement the its lack of outside training data.
+5.2 Ethical Concerns
+The ethical concerns of AI in negotiation are multifold. Based on what data was used in
+training, there may be a tendency to favor certain groups (Choyal et al., 2024). As such, it’s
+important to diversify the datasets being used in this capacity, so they mirror the contexts
+in which they’re being used.
+Data security is another major concern regarding AI applications in negotiation. The
+potential exists for privacy to be infringed upon, especially in cases where AI is being used
+in a monitoring context (Choyal et al., 2024). To solve this, it’s important to include privacy
+measures, such as data anonymization, and consent mechanisms into the analytic methods
+of ML models.
+If in the wrong hands, these models have the potential to spread disinformation or result
+in targeted attacks of individuals or groups (Choyal et al., 2024). What is yet to happen in
+the field of AI is to build a strict international framework around its use, like we have with
+4other emerging technologies that have great potential for both good and bad. Applying an
+appropriate regulatory framework may even stimulate innovation due to the stability that it
+would provide (Mariyono & Hidayatullah, 2025).
+6 Discussion
+ML has the opportunity to be incredibly beneficial to negotiation, especially in the era of
+protracted, intrastate conflict which we have today. There are large datasets on which to
+train negotiation models and due to their regional concentrations, any supplemental data
+provided can be well focused. The translation capabilities of NLP would be useful to allow for
+more effective dialogue between mediators and parties. However, there are still immense lim-
+itations and ethical concerns that need to be addressed before AI becomes more widespread
+in its use. Hallucination is concerning, especially when acting under the assumption that
+people tend to over-extend their trust to these tools. Additionally, without a cohesive legal
+framework under which countries are allowed to use ML, these tools will likely end up being
+used beyond their intended purposes. It’s important that there is a structure in place to
+regulate AI tools before they are used widespread, so it is clear who is accountable for the
+decisions made by the model, especially if they end up misstepping.
+7 Conclusion
+There is a lot of fear being expressed about the integration of AI in conflict resolution, just as
+much as there is interest in its use. However, one thing is clear: our traditional operational
+methods are changing and it’s important to be able to adapt to them. Further work needs to
+be done to streamline our models for negotiations, resolving some of the outstanding issues
+they face and ethical concerns need to be addressed. If that happens, there is potential for
+a great asset to be provided to negotiation methods.
+5References
+Arana-Catania, M., van Lier, F.-A., & Procter, R. (2022). Supporting peace negotiations in
+the yemen war through machine learning.Cambridge University Press.
+Aydo˘ gan, R., Baarslag, T., & Gerding, E. (2021). Artificial intelligence techniques for conflict
+resolution.Group Decision and Negotiation.
+Choyal, P., Mishra, P., Sharma, J., & Chaturvedi, A. (2024). Navigating peace: Harnessing
+artificial intelligence for conflict resolution.International Research Journal of Mod-
+ernization in Engineering Technology and Science.
+Mariyono, D., & Hidayatullah, A. A. (2025). Quantifying ai’s role in conflict resolution: As-
+sessing its potency in mediation and peacekeeping.Dirasat: Human Social Sciences.
+Molak, A. (2025). Ai in conflict resolution: Practical considerations, opportunities and chal-
+lenges.Conflict Resolution QUarterly.
+Montoya, A. M., & Tellez, J. (2020). Who wants peace? predicting civilian prefences in
+conflict negotiations.Journal of Politics in Latin America.
+Pauwels, E. (2020). Artificial intelligence and data capture technologies in violence and
+conflict prevention: Opportunities and challenges for the international community.
+Global Center on Cooperative Security.
+6
