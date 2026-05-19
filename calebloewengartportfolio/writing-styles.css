@@ -1,0 +1,214 @@
+/* Writing Article Styles */
+
+.writing-article {
+  padding: 4rem 0;
+  background: #22252d;
+  min-height: 100vh;
+  color: #ece5d8;
+}
+
+.writing-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(216, 195, 165, 0.15);
+}
+
+.resume-header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.back-link {
+  display: inline-block;
+  color: #d8c3a5;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #ef4444;
+}
+
+.writing-header h1 {
+  color: #f5e6c2;
+  margin: 1rem 0 0.5rem;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 1.1;
+}
+
+.writing-meta {
+  color: #d8c3a5;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0;
+  opacity: 0.85;
+}
+
+.writing-content {
+  color: #ece5d8;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  max-width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.writing-content h2 {
+  color: #f5e6c2;
+  margin: 2.5rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.writing-content h3 {
+  color: #f5e6c2;
+  margin: 2rem 0 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.writing-content p {
+  margin: 1.2rem 0;
+  color: #ece5d8;
+}
+
+.writing-content p + h2 {
+  margin-top: 3rem;
+}
+
+.writing-content strong {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+/* Links within writing */
+.writing-content a {
+  color: #ef4444;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.writing-content a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .writing-article {
+    padding: 2rem 0;
+  }
+
+  .writing-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .writing-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .writing-content {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .writing-content h2 {
+    font-size: 1.3rem;
+    margin: 2rem 0 0.75rem;
+  }
+
+  .writing-content p {
+    margin: 1rem 0;
+  }
+}
+
+/* Resume Styles */
+.resume-contact {
+  background: rgba(239, 68, 68, 0.08);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  border-left: 3px solid #ef4444;
+}
+
+.resume-contact p {
+  margin: 0.5rem 0;
+  color: #ece5d8;
+}
+
+.resume-contact a {
+  color: #ef4444;
+  text-decoration: none;
+}
+
+.resume-contact a:hover {
+  text-decoration: underline;
+}
+
+.resume-section {
+  margin: 1.5rem 0;
+}
+
+.resume-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(216, 195, 165, 0.1);
+}
+
+.resume-entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.entry-header h3 {
+  margin: 0;
+  flex: 1;
+}
+
+.date {
+  color: #d8c3a5;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.resume-entry p {
+  margin: 0.75rem 0;
+  color: #ece5d8;
+}
+
+.resume-entry ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  color: #ece5d8;
+}
+
+.resume-entry li {
+  margin: 0.75rem 0;
+  color: #ece5d8;
+}
+
+@media (max-width: 720px) {
+  .entry-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date {
+    font-size: 0.9rem;
+  }
+}
