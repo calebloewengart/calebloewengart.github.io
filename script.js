@@ -1,47 +1,46 @@
 const videoItems = [
   {
     title: 'October 7th, Two Years Later',
-    description: 'A video I made while studying abroad in Israel, documenting my expereince on the second anniversary of the October 7th attack. The video was co-published by the Jerusalem Post.',
+    description: 'Documentary from Israel on the second anniversary of the October 7th attack. Co-published by the Jerusalem Post.',
     type: 'embed',
     embedUrl: 'https://www.instagram.com/p/DPhCJ0pCuLM/embed',
   },
   {
     title: 'First Steps',
-    description: 'My first experience solo-backpacking, documenting my hike from the Mediterranean coast to the Sea of Galilee.',
+    description: 'Solo backpacking from the Mediterranean coast to the Sea of Galilee.',
     type: 'embed',
     embedUrl: 'https://www.instagram.com/reel/DSvFRAfD4Lp/embed',
   },
   {
     title: 'Skis on Sale',
-    description: 'Video I scripted, shot, and edited for the ski shop where I work to promote our end of season sale.',
+    description: 'Scripted, shot, and edited for Crystal Ski Shop to promote an end-of-season sale.',
     type: 'embed',
-    embedUrl: 'https://www.instagram.com/p/DWRYbs-kUgB/embed'
+    embedUrl: 'https://www.instagram.com/p/DWRYbs-kUgB/embed',
   },
   {
-    title: 'bootcap Giveaway',
-    description: 'Collaboration between Crystal Ski Shop and bootcap to promote their product.',
+    title: 'Bootcap Giveaway',
+    description: 'Brand collaboration between Crystal Ski Shop and Bootcap.',
     type: 'embed',
-    embedUrl: 'https://www.instagram.com/reel/DVyl922EV1l/embed'
-  }
+    embedUrl: 'https://www.instagram.com/reel/DVyl922EV1l/embed',
+  },
 ];
 
 const writingItems = [
-    {
+  {
     title: 'AI Negotiation Brief',
-    description: 'A concise exploration of AI-driven negotiation strategies and their real-world applications.',
+    description: 'How machine learning can inform mediation strategy — and where its limits lie.',
     link: 'assets/writing/ai.html',
-    },
-    {
+  },
+  {
     title: 'Sudan Blog Post',
-    description: 'A narrative-driven piece covering the social and cultural impact of current events in Sudan.',
+    description: 'A narrative-driven look at the social and cultural impact of current events in Sudan.',
     link: 'assets/writing/sudan.html',
   },
   {
     title: 'Armenia-Azerbaijan Analysis',
-    description: 'An in-depth examination of the regional dynamics and conflict between Armenia and Azerbaijan.',
+    description: 'Regional dynamics and conflict between Armenia and Azerbaijan.',
     link: 'assets/writing/armenia.html',
   },
-  
 ];
 
 function createVideoCard(item) {
@@ -58,14 +57,12 @@ function createVideoCard(item) {
 
   if (item.type === 'embed' && item.embedUrl) {
     const wrapper = document.createElement('div');
+    wrapper.className = 'video-embed';
     wrapper.innerHTML = `
       <iframe
         src="${item.embedUrl}"
         title="${item.title}"
         loading="lazy"
-        width="560"
-        height="315"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
@@ -97,8 +94,9 @@ function createWritingCard(item) {
   card.appendChild(description);
 
   const link = document.createElement('a');
+  link.className = 'card-link';
   link.href = item.link;
-  link.textContent = 'Read full piece';
+  link.textContent = 'Read piece →';
   card.appendChild(link);
 
   return card;
@@ -112,13 +110,13 @@ function renderPortfolio() {
   writingGrid.innerHTML = '';
 
   if (videoItems.length === 0) {
-    videoGrid.innerHTML = '<div class="card"><p>No videos added yet. Add items to the <code>videoItems</code> array in <code>script.js</code>.</p></div>';
+    videoGrid.innerHTML = '<div class="card"><p>No videos added yet.</p></div>';
   } else {
     videoItems.forEach((item) => videoGrid.appendChild(createVideoCard(item)));
   }
 
   if (writingItems.length === 0) {
-    writingGrid.innerHTML = '<div class="card"><p>No writing pieces added yet. Add items to the <code>writingItems</code> array in <code>script.js</code>.</p></div>';
+    writingGrid.innerHTML = '<div class="card"><p>No writing pieces added yet.</p></div>';
   } else {
     writingItems.forEach((item) => writingGrid.appendChild(createWritingCard(item)));
   }

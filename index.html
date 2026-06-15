@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Caleb Loewengart Portfolio</title>
+  <meta name="description" content="Portfolio of Caleb Loewengart — international affairs student, content creator, and researcher focused on storytelling, foreign policy, and emerging technology." />
+  <title>Caleb Loewengart</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
+    <div class="masthead-rule"></div>
     <div class="container header-inner">
       <a class="brand" href="#hero">Caleb Loewengart</a>
-      <nav>
+      <nav aria-label="Main navigation">
         <a href="#videos">Video</a>
         <a href="#writing">Writing</a>
         <a href="assets/resume.html">Resume</a>
         <a href="#about">About</a>
       </nav>
     </div>
+    <div class="masthead-rule thick"></div>
   </header>
 
   <main>
@@ -27,30 +30,17 @@
       <div class="container">
         <div class="hero-top">
           <div class="hero-copy">
+            <p class="dateline">Boulder, Colorado · International Affairs</p>
+            <p class="eyebrow">Portfolio</p>
             <h1><span class="highlight">Hi,</span> I'm Caleb Loewengart</h1>
-            
+            <p class="lead">International affairs student and Boettcher Scholar at CU Boulder. I create video content, write on policy and technology, and research how stories shape our understanding of the world.</p>
             <div class="hero-actions">
-              <a class="button" href="#videos">Content Creation</a>
-              <a class="button button-secondary" href="#writing">Written Work</a>
+              <a class="button" href="#videos">View Video Work</a>
+              <a class="button button-secondary" href="#writing">Read Writing</a>
             </div>
           </div>
           <div class="hero-headshot">
-            <img src="assets/headshot.jpeg" alt="Headshot of Caleb Loewengart" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="writing" class="section section-alt">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Writing</p>
-          <h2>Featured writing pieces</h2>
-          
-        </div>
-        <div id="writing-grid" class="grid">
-          <div class="card">
-            <p>Loading your writing portfolio...</p>
+            <img src="assets/headshot.jpeg" alt="Headshot of Caleb Loewengart" width="240" height="240" />
           </div>
         </div>
       </div>
@@ -61,34 +51,47 @@
         <div class="section-header">
           <p class="eyebrow">Video</p>
           <h2>Featured Content</h2>
-          <p>I've engaged hundreds of thousands of users through UGC work on social media as well as marketing projects in the outdoor industry</p>
+          <p class="section-desc">Short-form video for social media and brand partnerships in the outdoor industry — from documentary storytelling to product marketing.</p>
         </div>
-        <div id="video-grid" class="grid">
-          <div class="card">
-            <p>Loading your video portfolio...</p>
-          </div>
-        </div>
+        <div id="video-grid" class="grid" aria-live="polite"></div>
       </div>
     </section>
 
+    <section id="writing" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Writing</p>
+          <h2>Selected Writing</h2>
+          <p class="section-desc">Policy analysis and research on international affairs, conflict, and the role of technology in diplomacy.</p>
+        </div>
+        <div id="writing-grid" class="grid" aria-live="polite"></div>
+      </div>
+    </section>
 
     <section id="about" class="section">
       <div class="container about-grid">
         <div>
-          <p class="eyebrow">About me</p>
+          <p class="eyebrow">About</p>
           <h2>Stories, Tech, Policy</h2>
-          <p>Senior at the University of Colorado Boulder and 2023 Boettcher Scholar, Caleb Loewengart is passionate about storytelling, foreign relations, and the affect of emerging technologies on both. Please reach out if you have any questions about what I'm doing or interest in my work!</p>
+          <p>I'm a senior at the University of Colorado Boulder and a 2023 Boettcher Scholar, passionate about storytelling, foreign relations, and the effect of emerging technologies on both. I'm always open to research opportunities, collaborations, and conversations about this work.</p>
         </div>
         <div class="about-card">
-          <h3>Contact</h3>
-          <p>Email: <a href="mailto:caleb.loewengart@gmail.com">caleb.loewengart@gmail.com</a></p>
-          <p>Location: Boulder / Remote</p>
-          <p>Available for research opportunities, collaborations, and more.</p>
+          <h3>Get in Touch</h3>
+          <ul class="contact-list">
+            <li><a href="mailto:caleb.loewengart@gmail.com">caleb.loewengart@gmail.com</a></li>
+            <li><a href="https://linkedin.com/in/calebloewengart" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li>Boulder, CO · Remote</li>
+          </ul>
         </div>
       </div>
     </section>
   </main>
 
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Caleb Loewengart</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
