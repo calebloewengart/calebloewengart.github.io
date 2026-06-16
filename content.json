@@ -1,0 +1,72 @@
+{
+  "writing": [
+
+    {
+      "id": "ai-negotiation",
+      "title": "Applications of AI in Negotiation",
+      "description": "How machine learning can inform mediation strategy — and where its limits lie.",
+      "link": "assets/writing/ai.html",
+      "category": "Technology & Policy",
+      "date": "2025-10-12",
+      "readTime": "8 min read",
+      "cover": "assets/images/covers/AI.png",
+      "featured": true
+    },
+    {
+      "id": "sudan",
+      "title": "Steps Forward for Sudan",
+      "description": "Takeaways from the Munich Security Conference on the Sudanese civil war and paths toward negotiation.",
+      "link": "assets/writing/sudan.html",
+      "category": "Global Affairs",
+      "date": "2025-02-18",
+      "readTime": "6 min read",
+      "cover": "assets/images/covers/MSCSudan.jpg",
+      "featured": false
+    },
+    {
+      "id": "armenia",
+      "title": "Nagorno-Karabakh in the Post-Cold War Era",
+      "description": "Regional dynamics between Armenia and Azerbaijan through an intercultural communication lens.",
+      "link": "assets/writing/armenia.html",
+      "category": "Conflict Analysis",
+      "date": "2024-11-05",
+      "readTime": "12 min read",
+      "cover": "assets/images/covers/NagornoKarbakh.jpg",
+      "featured": false
+    }
+  ],
+  "videos": [
+    {
+      "id": "oct7",
+      "title": "October 7th, Two Years Later",
+      "description": "Documentary from Israel. Co-published by the Jerusalem Post.",
+      "category": "Documentary",
+      "embedUrl": "https://www.instagram.com/p/DPhCJ0pCuLM/embed",
+      "cover": "assets/images/covers/7october.JPEG"
+    },
+    {
+      "id": "first-steps",
+      "title": "First Steps",
+      "description": "Solo backpacking from the Mediterranean to the Sea of Galilee.",
+      "category": "Travel",
+      "embedUrl": "https://www.instagram.com/reel/DSvFRAfD4Lp/embed",
+      "cover": "assets/images/covers/yamlyam.JPEG"
+    },
+    {
+      "id": "skis",
+      "title": "Skis on Sale",
+      "description": "End-of-season sale promo for Crystal Ski Shop.",
+      "category": "Brand",
+      "embedUrl": "https://www.instagram.com/p/DWRYbs-kUgB/embed",
+      "cover": "assets/images/covers/SkisOnSale.png"
+    },
+    {
+      "id": "bootcap",
+      "title": "Bootcap Giveaway",
+      "description": "Brand collaboration between Crystal Ski Shop and Bootcap.",
+      "category": "Brand",
+      "embedUrl": "https://www.instagram.com/reel/DVyl922EV1l/embed",
+      "cover": "assets/images/covers/bootcap.png"
+    }
+  ]
+}

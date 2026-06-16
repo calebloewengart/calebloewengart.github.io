@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="AI and policy">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3329"/>
+      <stop offset="100%" stop-color="#3d6b58"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="620" cy="120" r="180" fill="#c4b08a" opacity="0.12"/>
+  <text x="48" y="420" fill="#f2ece1" font-family="Georgia, serif" font-size="28" opacity="0.9">Technology &amp; Policy</text>
+</svg>

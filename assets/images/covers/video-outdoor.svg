@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Outdoor">
+  <rect width="400" height="500" fill="#e8e0d2"/>
+  <polygon points="0,320 120,180 240,280 400,140 400,500 0,500" fill="#2d5244" opacity="0.55"/>
+  <polygon points="160,200 160,300 260,250" fill="#1a3329" opacity="0.9"/>
+  <text x="32" y="420" fill="#1a3329" font-family="Georgia, serif" font-size="22" opacity="0.85">Outdoor</text>
+</svg>

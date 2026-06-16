@@ -4,7 +4,8 @@ import os
 pdf_files = {
     'sudan': 'assets/writing/CalebLoewengart-WritingSampleSudanBlogPost.pdf',
     'armenia': 'assets/writing/CalebLoewengart-WritingSampleArmeniaAzerbaijan.pdf',
-    'ai': 'assets/writing/CalebLoewengart-WritingSampleAINegotiation.pdf'
+    'ai': 'assets/writing/CalebLoewengart-WritingSampleAINegotiation.pdf',
+    'ailiteracy': 'assets/writing/CalebLoewengart_AILiteracyStatement (1).pdf'
 }
 
 for name, pdf_file in pdf_files.items():

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Documentary">
+  <rect width="400" height="500" fill="#1a3329"/>
+  <polygon points="160,200 160,300 260,250" fill="#c4b08a" opacity="0.85"/>
+  <text x="32" y="420" fill="#f2ece1" font-family="Georgia, serif" font-size="22" opacity="0.8">Documentary</text>
+</svg>

@@ -14,10 +14,11 @@
   <header class="site-header">
     <div class="masthead-rule"></div>
     <div class="container header-inner">
-      <a class="brand" href="#hero">Caleb Loewengart</a>
+      <a class="brand" href="#top">Caleb Loewengart</a>
       <nav aria-label="Main navigation">
-        <a href="#videos">Video</a>
         <a href="#writing">Writing</a>
+        <a href="#videos">Video</a>
+        <a href="#ai-literacy">AI Literacy</a>
         <a href="assets/resume.html">Resume</a>
         <a href="#about">About</a>
       </nav>
@@ -25,24 +26,38 @@
     <div class="masthead-rule thick"></div>
   </header>
 
-  <main>
-    <section id="hero" class="hero section">
-      <div class="container">
-        <div class="hero-top">
-          <div class="hero-copy">
-            <p class="dateline">Boulder, Colorado · International Affairs</p>
-            <p class="eyebrow">Portfolio</p>
-            <h1><span class="highlight">Hi,</span> I'm Caleb Loewengart</h1>
-            <p class="lead">International affairs student and Boettcher Scholar at CU Boulder. I create video content, write on policy and technology, and research how stories shape our understanding of the world.</p>
-            <div class="hero-actions">
-              <a class="button" href="#videos">View Video Work</a>
-              <a class="button button-secondary" href="#writing">Read Writing</a>
-            </div>
-          </div>
-          <div class="hero-headshot">
-            <img src="assets/headshot.jpeg" alt="Headshot of Caleb Loewengart" width="240" height="240" />
-          </div>
+  <main id="top">
+    <section class="blog-masthead">
+      <div class="container masthead-grid">
+        <div class="masthead-copy">
+          <p class="dateline">Boulder, Colorado · International Affairs</p>
+          <h1><span class="highlight">Hi,</span> I'm Caleb Loewengart</h1>
+          <p class="lead">I write on policy and technology, create documentary and brand video, and study how stories shape our understanding of the world.</p>
         </div>
+        <div class="masthead-photo">
+          <img src="assets/headshot.jpeg" alt="Headshot of Caleb Loewengart" width="220" height="275" />
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="section" hidden>
+      <div class="container">
+        <p class="eyebrow">Latest</p>
+        <div id="featured-post"></div>
+      </div>
+    </section>
+
+    <section id="writing" class="section section-alt">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <p class="eyebrow">Writing</p>
+            <h2>From the desk</h2>
+            <p class="section-desc">Policy analysis, research, and essays on international affairs.</p>
+          </div>
+        
+        </div>
+        <div id="post-feed" class="post-feed" aria-live="polite"></div>
       </div>
     </section>
 
@@ -50,21 +65,26 @@
       <div class="container">
         <div class="section-header">
           <p class="eyebrow">Video</p>
-          <h2>Featured Content</h2>
-          <p class="section-desc">Short-form video for social media and brand partnerships in the outdoor industry — from documentary storytelling to product marketing.</p>
+          <h2>Watch</h2>
+          <p class="section-desc">Scroll through recent work — tap a card to play.</p>
         </div>
-        <div id="video-grid" class="grid" aria-live="polite"></div>
+        <div id="video-reel" class="video-reel" aria-live="polite"></div>
       </div>
     </section>
 
-    <section id="writing" class="section section-alt">
+    <section id="ai-literacy" class="section">
       <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Writing</p>
-          <h2>Selected Writing</h2>
-          <p class="section-desc">Policy analysis and research on international affairs, conflict, and the role of technology in diplomacy.</p>
+        <div class="ai-literacy-banner">
+          <div class="ai-literacy-copy">
+            <p class="eyebrow">AI Literacy</p>
+            <h2>How I work with AI</h2>
+            <p class="section-desc">A statement on conceptual understanding, practical skills, and ethics — covering LLM limitations, RAG and chain-of-thought prompting, and the importance of cognitive sovereignty.</p>
+            <a class="button" href="assets/writing/ailiteracy.html">Read full statement</a>
+          </div>
+          <a class="ai-literacy-cover" href="assets/writing/ailiteracy.html" aria-label="Read AI Literacy Statement">
+            <img src="assets/images/covers/AI.png" alt="" loading="lazy" />
+          </a>
         </div>
-        <div id="writing-grid" class="grid" aria-live="polite"></div>
       </div>
     </section>
 
@@ -72,8 +92,8 @@
       <div class="container about-grid">
         <div>
           <p class="eyebrow">About</p>
-          <h2>Stories, Tech, Policy</h2>
-          <p>I'm a senior at the University of Colorado Boulder and a 2023 Boettcher Scholar, passionate about storytelling, foreign relations, and the effect of emerging technologies on both. I'm always open to research opportunities, collaborations, and conversations about this work.</p>
+          <h2>Stories, tech, policy</h2>
+          <p>I'm a senior at the University of Colorado Boulder and a 2023 Boettcher Scholar. I'm always open to research opportunities, collaborations, and conversations about this work.</p>
         </div>
         <div class="about-card">
           <h3>Get in Touch</h3>
